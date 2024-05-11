@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タルトケーキ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">写真日記アーカイブ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="post-section">
+            <div class="post-form">
+                <textarea id="post-input" placeholder="今の気持ちは？"></textarea>
+                <input type="file" id="post-image" accept="image/*" class="post-image-input">
+                <button id="post-btn" class="post-btn">投稿</button>
+            </div>
+            <div id="post-container" class="posts">
+                <!-- ここに投稿が表示されます -->
+            </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
